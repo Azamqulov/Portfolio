@@ -2949,30 +2949,33 @@
                                 services Makes best effort.</p>
                         </div>
                         <!-- Section title end -->
+                        <div class="appointment-form">
 
-                        <!-- from inner start-->
-                        <form action="#">
-                            <div class="grid grid-cols-2 gap-7">
-                                <div>
-                                    <input
+                            <!-- from inner start-->
+                            <form >
+                                <div class="grid grid-cols-2 gap-7">
+                                    <div>
+                                        <input
                                         class="w-full bg-white rounded px-5 py-2 h-11 dark:bg-transparent dark:text-slate-300 dark:border dark:border-slate-600"
-                                        type="text" name="name" placeholder="Your name">
-                                </div>
-                                <div>
-                                    <input
+                                        type="text" name="name" placeholder="Your name" id="name">
+                                    </div>
+                                    <div>
+                                        <input
                                         class="w-full bg-white rounded px-5 py-2 h-11 dark:bg-transparent dark:text-slate-300 dark:border dark:border-slate-600"
-                                        type="email" name="email" placeholder="Your email">
-                                </div>
-                                <div class="col-span-2">
-                                    <textarea
+                                        type="email" name="email" placeholder="Your email"
+                                        id="surname">
+                                    </div>
+                                    <div class="col-span-2">
+                                        <textarea
                                         class="w-full bg-white rounded px-5 py-2 h-40 dark:bg-transparent dark:text-slate-300 dark:border dark:border-slate-600"
-                                        name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                                        name="message" id="message" cols="30" rows="10" placeholder="Message" ></textarea>
+                                    </div>
                                 </div>
-                            </div>
-                            <button class="btn solid-btn mt-12">Send Request</button>
+                            <button class="btn  solid-btn mt-12" id="sendBtn" type="submit">Send Request</button>
                         </form>
                         <!-- from inner end -->
                     </div>
+                </div>
 
                     <div
                         class="ltr:only-md:pl-[30px] ltr:lg:pl-[50px] rtl:only-md:pr-[30px] rtl:lg:pr-[50px] mt-[30px] lg:mt-[150px] md:flex md:gap-[30px] md:flex-wrap">
